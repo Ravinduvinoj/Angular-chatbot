@@ -1,0 +1,21 @@
+.btn-service{
+ 
+    float: right;
+    margin-top: 800px;
+    margin-right: 150px;
+}
+.btn-service button {
+    padding: 20px 34px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    background: green;
+}
+
+.main-page {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(204, 240, 204);
+}
+
+

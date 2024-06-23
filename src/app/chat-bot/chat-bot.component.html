@@ -1,0 +1,15 @@
+<h1 style="text-align: center;font-size: 30px; width: 100%; background: rgb(174, 255, 174);">Green Bot Assitant</h1>
+<button (click)="onMessageclose()" style="margin-left: 600px; background: rgb(150, 4, 4); ">X</button>
+
+<div mat-dialog-content class="content">
+    <div class="chat-container" style=" max-height: 500px;">
+        <div class="chat-box" *ngFor="let message of messages">
+            <div class="user-message" *ngIf="message.user">{{ message.text }}</div>
+            <div class="bot-message" *ngIf="!message.user">{{ message.text }}</div>
+        </div>
+        <div class="input-box">
+            <input [(ngModel)]="userInput" (keydown.enter)="sendMessage()" placeholder="Type your message..." />
+            <button (click)="sendMessage()">send</button>
+        </div>
+    </div>
+</div>

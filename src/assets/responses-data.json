@@ -1,0 +1,216 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "Hello there"
+            ],
+            "responses": [
+                "Hello! How can I assist you with your job search today?",
+                "Hi there! How can I help you find your dream job?",
+                "Hey! Looking for a new job opportunity?",
+                "Good day! How can I support your job hunt?",
+                "Hello! How can I help you today?",
+                "Hi! What can I do for you regarding our job portal?",
+                "Hey there! Need help with job applications?",
+                "Hello! What job are you looking for today?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care",
+                "Farewell",
+                "Catch you later",
+                "Talk to you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Let us know if you need any more job search help!",
+                "Bye! Don't hesitate to ask if you need more information.",
+                "Take care! Come back soon for more job opportunities!",
+                "Farewell! Have a wonderful day!",
+                "Catch you later! We're here if you need more assistance.",
+                "Talk to you later! Feel free to reach out anytime."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "I appreciate it",
+                "Thank you so much",
+                "Thanks a lot",
+                "Many thanks",
+                "Thank you very much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem! Happy to help with your job search.",
+                "You're welcome! Is there anything else you need?",
+                "Glad to assist! Let me know if you have more questions.",
+                "You're welcome! Anytime you need help, I'm here.",
+                "No worries! I'm here to help.",
+                "You're welcome! Do you need help with anything else?"
+            ]
+        },
+        
+        {
+            "tag": "job_search",
+            "patterns": [
+                "Find me a job",
+                "Show me jobs",
+                "I am looking for a job",
+                "Can you help me find a job?",
+                "What job opportunities do you have?",
+                "I need a job",
+                "Job search",
+                "Looking for jobs"
+            ],
+            "responses": [
+                "Sure, what type of job are you looking for?",
+                "What industry or position are you interested in?",
+                "Can you specify the job title or field you are interested in?",
+                "I can help with that! What kind of job are you searching for?",
+                "Let's find a job for you. What are your preferences?"
+            ]
+        },
+        {
+            "tag": "apply_job",
+            "patterns": [
+                "How do I apply for a job?",
+                "Can I apply for this job?",
+                "I want to apply for this job",
+                "How to submit a job application?",
+                "Job application process",
+                "Applying for a job"
+            ],
+            "responses": [
+                "To apply for a job, click on the job listing and follow the instructions to submit your resume and cover letter.",
+                "You can apply for this job by clicking 'Apply Now' on the job listing page.",
+                "To apply, please upload your resume and any other required documents on the job application page.",
+                "Follow the steps provided on the job listing to submit your application.",
+                "Applying is easy! Just go to the job listing and click 'Apply'."
+            ]
+        },
+        {
+            "tag": "resume_help",
+            "patterns": [
+                "How do I upload my resume?",
+                "Can you help me with my resume?",
+                "I need to update my resume",
+                "Resume upload",
+                "Adding my resume"
+            ],
+            "responses": [
+                "To upload your resume, go to your profile page and click 'Upload Resume'.",
+                "You can update your resume by visiting the 'My Profile' section and selecting 'Edit Resume'.",
+                "To add or update your resume, navigate to your account settings and choose 'Resume'.",
+                "Upload your resume in the 'My Documents' section of your profile.",
+                "For help with your resume, go to the 'Resume' tab in your account settings."
+            ]
+        },
+        {
+            "tag": "profile_management",
+            "patterns": [
+                "How do I update my profile?",
+                "Can I edit my profile information?",
+                "Updating my account details",
+                "Edit profile",
+                "Profile update"
+            ],
+            "responses": [
+                "To update your profile, go to the 'My Profile' section and click 'Edit'.",
+                "You can edit your profile information by navigating to 'Account Settings' and selecting 'Edit Profile'.",
+                "Update your account details in the 'Profile' section under settings.",
+                "Go to 'My Profile' and click 'Edit' to update your information.",
+                "For profile updates, visit the 'Account Settings' and choose 'Edit Profile'."
+            ]
+        },
+        {
+            "tag": "job_posting",
+            "patterns": [
+                "How do I post a job?",
+                "Can I post a job listing?",
+                "I want to add a job",
+                "Job posting process",
+                "Adding a job listing"
+            ],
+            "responses": [
+                "To post a job, go to the 'Employer Dashboard' and click 'Post a Job'.",
+                "You can add a job listing by visiting the 'Employer' section and selecting 'Post a Job'.",
+                "Go to 'Post a Job' in the employer dashboard to add a new job listing.",
+                "To post a job, log in to your employer account and click 'Post Job'.",
+                "Visit the 'Employer Dashboard' and click 'Add Job' to post a new job listing."
+            ]
+        },
+        {
+            "tag": "subscription_info",
+            "patterns": [
+                "Tell me about subscription plans",
+                "What are the subscription options?",
+                "Do you have subscription plans?",
+                "Subscription details",
+                "Membership plans"
+            ],
+            "responses": [
+                "We offer various subscription plans including monthly,  and yearly options.",
+                "Yes, we have subscription plans. You can choose between monthly, and annual memberships.",
+                "Our subscription options include monthly,  and yearly plans with different benefits.",
+                "Subscription plans are available on a monthly, and yearly basis. Each plan comes with specific features.",
+                "We provide different membership plans: monthly, and yearly. Each plan has its own benefits."
+            ]
+        },
+        {
+            "tag": "interview_preparation",
+            "patterns": [
+                "How do I prepare for an interview?",
+                "Interview preparation tips",
+                "Can you help me with interview preparation?",
+                "What should I do to prepare for an interview?",
+                "Tips for interview success"
+            ],
+            "responses": [
+                "To prepare for an interview, research the company, practice common interview questions, and dress professionally.",
+                "Review the job description, practice your answers to common questions, and have your resume ready.",
+                "Preparation tips include researching the company, practicing common interview questions, and dressing appropriately.",
+                "For a successful interview, know the company well, practice answering questions, and ensure you have all necessary documents.",
+                "Preparing for an interview involves understanding the job role, practicing questions, and being ready with your resume."
+            ]
+        },
+        {
+            "tag": "application_status",
+            "patterns": [
+                "What is the status of my application?",
+                "Can you tell me about my job application?",
+                "I want to know the status of my application",
+                "Application status for job [job_id]",
+                "What's the status of my job application?",
+                "Can I track my job application?",
+                "How can I check my application status?",
+                "Tell me the status of application [application_id]"
+            ],
+            "responses": [
+                "Your application for job [job_id] is currently [application_status].",
+                "The status of your application for job [job_id] is [application_status].",
+                "Your application for job [job_id] is [application_status]. We will notify you once there are updates.",
+                "Application [application_id] status is [application_status].",
+                "The status of your application is [application_status].",
+                "Your job application [application_id] is currently [application_status].",
+                "Application [application_id] status is [application_status]. Please check your email for updates.",
+                "Your application is [application_status] and we will update you with any further developments."
+            ]
+        }
+    ]
+}
